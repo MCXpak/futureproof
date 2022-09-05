@@ -1,0 +1,79 @@
+Agile
+
+MVP - Minimum viable product =
+Fail quicly/fail cheaply
+
+Customer is involved
+
+Agile is values and principles
+
+Agile practices include SCRUM and Kanban
+
+EPIC
+https://www.atlassian.com/agile/project-management/epics-stories-themes
+
+Indivduals + Interactions over Process and Tools
+
+Working software over comprehensive docs
+
+Customer collaboration over contract negotiation
+
+Responding to changes over following a plan
+
+Agile practices
+- SCRUM
+- Kanban
+EPIC
+
+Product Backlog is the result of the user story
+Registration Login -> Book appointment -> Recieve confirmation -> Go to appointment -> Doctor Logs -> Confirmation of service recieved -> Feedback
+Build MVP from backlog (essentials from 2 weeks)
+
+Product Owner responsible for the story/todo/backlog
+
+Product Backlog (User stories) -> Release Backlog (for MVP) -> Sprints -> Product backlog refinment -> Alpha,Beta,Live
+
+SCRUM Master is the remover of obstales (budget, software requirements etc)
+
+
+Product Backlog 
+Collection of User Stories
+
+Release Backlog
+Prioritise use stories for a release
+
+Sprint Backlog
+Short duration milestones that allow teams to tackle manageable chunk of the project
+
+Whole team responsible for deciding what is a managle chunk size for the project
+
+SCRUM Board
+During sprints, you assign task to yourself that you feel confident taking on. The tasks gets put into "In Progress" Column.
+Your task is then reviewed before being pushed for released. Then is moved in to the "Done" Column
+
+
+SCRUM Ceremonies/Rituals
+1. Sprint planning - Sit down and think about how you're going to do the sprint
+2. Standups What you did yesterday, what you're going to do today, do you have any blockers
+3. Sprint Reviews (Show and Tell) - Customer gives feedback
+4. Sprint Retrosepctive - Dev team looks at their previes work (only dev team)
+5. Product Backlong Refinement
+
+Sprint Burndow Chart - Estimate difficulty and accumulation of pointns vs time
+Burndown velocity - the speed as which tasks are being completed
+
+CI/CD - Contninious Integration(Improvement)/Contninious Development(Delivery)]
+
+Kanban focues on continous development
+Kanban is ideal for constant task priority changes
+
+SCRUM is more flexible
+SCRUM is idea for projects
+
+
+Kanban not useful for not starting project. Agile is the one to use for gettinga project starting and delivering an mvp.
+
+What is lean
+In short, Lean methodology is a way of optimizing the people, resources, effort, and energy of your organization toward creating value for the customer. It is based on two guiding tenets, continuous improvement and respect for people.
+
+4 stages of development Dev - Testing - Staging - Live

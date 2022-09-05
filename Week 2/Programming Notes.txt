@@ -1,0 +1,4 @@
+Data: What the computer remembers/knows/stores
+Logic: Operations and decisions made by the program
+Actions: The things (or outputs) that the computer can actually do
+

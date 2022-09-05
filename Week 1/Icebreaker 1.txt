@@ -1,0 +1,35 @@
+What is tech? What is tech to you?
+ 
+
+Tech is a lifestyle. A bunch of 1s and 0s. Tech is a tool to help us in our everyday lifes. We think "tech" is anything that can compute. 
+The ultimate goal is to allow us to efficiently do things and automate things.
+
+Who has worked in tech?
+
+Vanessa was a graduate consultant before futureproof at brightgen. Examples of positions project manager, ui/ux design, tester. 
+
+What positions do you consider important in a tech team.
+Each role is as important as each other but if we had to pick.
+1. Testing (bad code is worse than no code)
+2. Front End. If it looks nice you can get away with it.
+3. Back end. It needs to work, not just look nice. 
+4. Projet Manager. Gets the team talking to each other. But a good team will can work well without good management.
+
+Positives and negatives innovation
+Positives
+Automation (Amazon)
+Healthcare research during the pandemic
+Social media - See what your friends are up to, see what's happening around the world
+
+Negatives
+Automation
+Streaming (Spotify and Netflix)
+Social media - Toxic, overwhelming
+
+Where is tech going?
+Metaverse
+NFT
+AI/ML
+
+How can we be a part of it?
+Stay up to

@@ -1,0 +1,27 @@
+Terminal - a way of inputting commands and seeing output
+
+Shell - a way of interacting with an operating system
+
+Console - an inut device connected to an output device
+
+CLI (command-line interface) - Lets you give line-by-line instructions to a machine
+
+cd - alone will take you to your user root
+
+cat - prints out everything in the console
+less - open up the document and read it only
+cp - to copy 
+history - to see last few commands
+echo - prints out  text
+curl - get things from the internet
+
+Example 
+curl https://www.gutenberg.org/cache/epub/345/pg345.txt > dracula.txt
+This gets the plain text dracula file and saves it to dracula.txt
+
+wc - word count
+
+grep -e vampire dracula.txt - looks for the wod vampire
+
+git switch [branch name] - switch to branch
+git branch [name] - create a branch
