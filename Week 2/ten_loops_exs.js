@@ -83,16 +83,23 @@ const pinGuess = () => {
 const checkPalindrome = (str) => {
     let isPalindrome = false
     for(let i = 0; i < str.length/2; i++){
-        console.log(`${str[i]} ${str[str.length-i-1]}`)
-        console.log(typeof(str[str.length-i-1]))
-        if(str[i] == str[str.lenght-i-1]){
-            
+        if(str.charAt(i) == str.charAt(str.length-i-1)){
             isPalindrome = true
         } else {
             isPalindrome = false
         }
     }
-    return isPalindrome ? "Yes" : "No"
+    return isPalindrome ? `Yes (${str})` : 'No (${str})'
 }
 
-console.log(checkPalindrome("rr"))
+// console.log(checkPalindrome("madam"))
+
+const summation = (num) =>{
+    let count = 0;
+    for(let i = 1; i <= num; i++){
+        count += i
+    }
+    return count
+}
+
+console.log(summation(8))
