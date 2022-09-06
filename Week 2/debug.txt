@@ -1,0 +1,11 @@
+Debug 1
+1. horse isn't a string
+2. Missing quotation
+3. Strict equality used on first if statement
+4. Mismatched quotes at return "Youl!'
+
+Debug 2
+1. No brackets around the for loop initilising statements
+2. Index won't increment
+3. Curly braces used instead of parenthesis at arr{index} == target
+4. module export = FindTarget uses capital T when the function definition uses lowercase
