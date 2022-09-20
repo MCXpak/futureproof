@@ -1,0 +1,18 @@
+{
+  "name": "forms-nakamoto",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "dev": "watchify ./script.js -o bundle.js",
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest-environment-jsdom": "^29.0.3",
+    "jsdom": "^20.0.0",
+    "watchify": "^4.0.0"
+  },
+  "jest": {"testEnvironment": "jsdom"}
+}

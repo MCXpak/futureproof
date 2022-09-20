@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="bundle.js"></script>
+    <title>Celebration Card</title>
+</head>
+<body>
+    <form id="form">
+        <h1>Celebration Card</h1>
+        <h3></h3>
+        <label for="greeting">Greeting</label>
+        <input id="greeting" type="text" name="greeting" placeholder="Greeting...">
+
+        <select name="event-type" id="event-type">
+            <option value="Birthday">Birthday</option>
+            <option value="Engagement">Engagement</option>
+            <option value="Wedding">Wedding</option>
+            <option value="Baby Shower">Baby Shower</option>
+        </select>
+
+        <!-- <label for="event-type">Type of Event</label>
+        <input id="event-type" type="radio" name="event-type" required> -->
+
+        <textarea id="message" name="message" cols="30" rows="5" placeholder="Put your message here..."></textarea>
+        <input type="submit" value="Do the thing">
+
+        <input type="checkbox" name="darkmode" id="darkmode">
+    </form>
+
+    <div id="card">
+        <h1>Congratulations!</h1>
+        <h2 id="card-greeting" name="card-greeting"></h2>
+        <p id="card-message" name="card-message"></p>
+    <div>
+</body>
+</html>
