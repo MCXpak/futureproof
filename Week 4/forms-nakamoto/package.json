@@ -12,7 +12,11 @@
   "devDependencies": {
     "jest-environment-jsdom": "^29.0.3",
     "jsdom": "^20.0.0",
+    "node-fetch": "^3.2.10",
     "watchify": "^4.0.0"
   },
-  "jest": {"testEnvironment": "jsdom"}
+  "jest": {
+    "testEnvironment": "jsdom"
+  },
+  "type": "module"
 }
