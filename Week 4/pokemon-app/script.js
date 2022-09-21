@@ -1,5 +1,13 @@
 let index = 1;
 
+const setImgs = (pokemonData) => {
+    const pokemonImgFront = document.getElementById('poke-img-front') 
+    pokemonImgFront.src = pokemonData.sprites.front_default
+    const pokemonImgBack = document.getElementById('poke-img-back') 
+    pokemonImgBack.src = pokemonData.sprites.back_default
+
+}
+
 const fetchPokemon = async (pokemonIndex) => {
     try {
         const response = await fetch(`https://pokeapi.co/api/v2/pokemon/${pokemonIndex}`) //Get data
@@ -11,10 +19,7 @@ const fetchPokemon = async (pokemonIndex) => {
         pokemonName.textContent = pokemonData.name
         pokemonName.style.textTransform = "capitalize";
         //Imgs
-        const pokemonImgFront = document.getElementById('poke-img-front') 
-        pokemonImgFront.src = pokemonData.sprites.front_default
-        const pokemonImgBack = document.getElementById('poke-img-back') 
-        pokemonImgBack.src = pokemonData.sprites.back_default
+        setImgs(pokemonData)
 
         //Moves List
         const moveList = document.getElementById("move-list")
@@ -30,10 +35,14 @@ const fetchPokemon = async (pokemonIndex) => {
             moveList.append(li)
         }
         index = pokemonData.id
-    } catch {
-        throw new Error("WHAT DID YOU DO")
-    }
 
+    } catch {
+        const pokemonName = document.getElementById('pokemon-name')
+        pokemonName.textContent = "Not Found"
+        const moveList = document.getElementById("move-list")
+        moveList.innerHTML = ""
+
+    }
 }
 
 fetchPokemon(1)
@@ -44,14 +53,13 @@ nextButton.addEventListener('click', () => {
     fetchPokemon(index)
 })
 
-const pokemonInput = document.getElementById('pokemon-input')
-const onSubmit = () => {
-    let pokeName = pokemonInput.value
-    console.log(pokeName)
-    fetchPokemon(pokeName)
-}
+let form = document.getElementById('pokemon-form')
 
-
+form.addEventListener('submit', (e) => {
+    e.preventDefault();
+    let pokemon = e.target[0].value
+    fetchPokemon(pokemon);
+})
 
 
 

@@ -1,0 +1,22 @@
+{
+  "name": "pokemon-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MCXpak/FPPokemonApp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MCXpak/FPPokemonApp/issues"
+  },
+  "homepage": "https://github.com/MCXpak/FPPokemonApp#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
