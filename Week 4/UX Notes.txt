@@ -1,0 +1,85 @@
+UX Design
+
+User experience -> overall experience a user has when interating with a product or service in a given context
+
+
+
+10 Hueristics - Don Norman
+https://www.nngroup.com/articles/ten-usability-heuristics/
+
+Steps of UX deisgn process
+
+1. Product definiton
+2. Research
+3. Analysis
+4. Deisgn
+5. Validation
+
+Product Definition
+- Define what the product is, done before anything is created
+- Before you build your product, it's important to fully understand the reason for being
+	- Stakeholder interviews to gather insights and goals
+	- Concept sketchin - early and simple mockups
+
+UX Research
+Market research - to understand industry standards and look at other products to know what's out there, aka Competitive Research
+User-research - in-depth interviews
+
+Analysis
+Move from "what" users think or want to "why" they think or want it
+This phase can include
+	User personas: ficitonal characters that represent the differen user types for your product
+	User stories: Tool that helps designer understand a product or service from the user's point of view
+	Storyboarding: story of a user interacting with the product
+	
+Design
+This phase includes
+Sketching: done on a piece of paper with a pen helps visualise a broad range of designer
+Wireframing: backbone of a product
+	Low-fidelity wireframes: structure of a page but on a digital tool (e.g. Figma)
+	High-fidelity wireframes: go into colours, typography, images
+Prototyping: 
+	Interactions between pages of a prodcut - arrows that show the flow of your UX
+	Design specifications and systems: building the isual design assets, components and patterns required for developers to turn prototype into a working product
+	
+
+Validation
+	Testing with actual users
+	
+UX vs UI
+UX - creating a simple, useful and delightful experience of the app
+UI - look and feel of the app
+
+
+Accessibillity
+	Allows users of all abilities to understand, use and enjoy the web
+
+WCAG Web Content Accessibillity Guidelines
+	Percievable - make sure users can recognise and use your service with the senses that are available to them
+	operable: make sure users can find and use your content, regardless of how they choose to access it
+	Robust: make sure your content can be interpret reliably by a wide variety of user groups
+
+Research
+User research - a way to understand usejr;s needs, behaviours, expoerience and motivations through different techniques - interviews, observations, surveys
+Can be done in all stages of your product design process
+
+Why it's important
+- User-centered design and research
+
+Different reserach methods
+- Qualitiative
+	User interviews - aksing users about their experience with a product
+	Contextual inquiry - observing how users interact with a product
+	Guerilla testing - gathering user feedback by taking a prototype into a public place like a cafe and asking people for their thoughts
+	Usability testing - testing if a oridyct by people who represent the target audience - moderating and unmoderated
+	Focus groups - inviting a small group of people who represent your target audience and discuss their perceptions and opinions about a product
+
+-Quantitative
+	Surveys/forms: questionnair that gathers a large volume fo repsonses
+	Eye-tracking: Tehch to messure eye movements to know what the person is looking at and grabs their attention first
+	Product analytics: tracking users clicks on an app
+	
+
+Tom is a software lead at Meta. He finds hotels are too restrictive and usually doesn't agree with their policies. 
+He looks forward to getting to know a quiet local area, with his own space and freedom to do what he wants. 
+	
