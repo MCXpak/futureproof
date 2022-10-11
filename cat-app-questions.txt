@@ -1,0 +1,12 @@
+adaptability: I often go out to socialise
+affection_level: I seek affection from others
+child_friendly: I have/want to have kids
+dog_friendly: I would enjoy having different pets at home
+energy_level: I am an energetic person
+grooming: I look after my self image often
+health_issues: I often take pride in looking after others
+intelligence: I consider myself intelligent
+shedding_level: I cannot stand mess in my home
+social_needs: I'd rather stay at home than go out
+stranger_friendly: I often like having guests at home
+vocalisation: I like my home more loud than quiet
