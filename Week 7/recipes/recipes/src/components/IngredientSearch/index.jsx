@@ -18,18 +18,20 @@ function IngredientSearch({recipes, setRecipes}){
     // }
 
     function handleSearch(){
-        recipes.map(recipe => {
+        recipes.forEach(recipe => {
             for(const ingredient of recipe.ingredients){
                 console.log(ingredient)
-                //Check if it input isn't in ingredient and input is not nothing
-                if(!ingredient.includes(inputText) && inputText.length > 0){
+                //Check if input isn't in ingredient and input is not empty string
+                if(!ingredient.includes(inputText)){
                     recipe.display = false
+                    console.log(recipe)
                 } else {
                     recipe.display = true
                     break; //Exit when character match is found
                 }
             }
         })
+        console.log(recipes)
         setRecipes([...recipes])
     }
 

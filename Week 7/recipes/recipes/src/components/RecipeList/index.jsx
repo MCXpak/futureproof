@@ -8,8 +8,8 @@ function RecipeList({recipes, setRecipes}){
             {recipes.map((recipe, index)=> {
                 if(recipe.display){
                     return <Recipe key={index} recipe={recipe} recipes={recipes} setRecipes={setRecipes}/>
-            }
-        })}
+                }
+            })}
         </div>
     )
 }
